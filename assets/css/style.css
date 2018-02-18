@@ -1,3 +1,35 @@
-body{
-    background: lightcoral
-}
+body {
+    background-color: rgb(216, 192, 255);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  h5 {
+    margin-top: 0;
+  }
+
+  .jumbotron {
+    text-align: center;
+    color: rgb(41, 103, 196);
+    font-family: cursive;
+    background-color: rgb(202, 162, 210);
+  }
+  
+  .jumbotron h1 {
+    font-size: 100px;  
+    }  
+    
+  footer {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  @media only screen and (max-width: 800px){
+    .jumbotron h1 {
+    font-size: 80px;  
+  }
+  }
+  @media screen and (max-width: 600px){
+  .jumbotron h1 {
+    font-size: 50px;  
+  }
+  
